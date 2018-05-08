@@ -1,0 +1,35 @@
+cask_args appdir: '/Applications'
+tap 'caskroom/cask'
+tap buo/cask-upgrade
+
+brew 'cask'
+brew 'docker'
+brew 'git'
+brew 'mas'
+
+cask '1password'
+cask 'atom'
+cask 'dbeaver-community'
+cask 'docker-toolbox'
+cask 'dropbox'
+cask 'firefox'
+cask 'github-desktop'
+cask 'google-chrome'
+cask 'google-drive'
+cask 'google-play-music-desktop-player'
+cask 'iterm2'
+cask 'java'
+cask 'karabiner-elements'
+cask 'kitematic'
+cask 'mactex'
+cask 'miniconda'
+cask 'popsql'
+cask 'scroll-reverser'
+cask 'sequel-pro'
+cask 'slack'
+cask 'slate'
+cask 'tunnelblick'
+cask 'visual-studio-code'
+
+mas 'Xcode', id: 497799835
+mas 'Kiwi for Gmail', id: 986304488

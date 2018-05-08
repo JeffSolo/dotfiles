@@ -1,0 +1,45 @@
+{
+  "title": "Print Screen",
+  "rules": [
+    {
+      "description": "F18 Snip Screen",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f18"
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "F17 Print Screen to Desktop",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f17"
+          },
+          "to": [
+            {
+              "key_code": "3",
+              "modifiers": [
+                "left_shift",
+                "left_command"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

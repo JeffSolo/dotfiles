@@ -1,0 +1,10 @@
+# Jeff's
+alias lsa='ls -a'
+alias lsla='ls -la'
+alias ls.='ls -d .?* '
+alias lsl='ls -l'
+alias lsd='ls -dl */'
+
+alias ds='source activate datascience'
+alias juno='jupyter notebook'
+alias jula='jupyter lab'

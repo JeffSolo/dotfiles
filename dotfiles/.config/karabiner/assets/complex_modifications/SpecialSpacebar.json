@@ -1,0 +1,32 @@
+{
+  "title": "Special Spacebar",
+  "rules": [
+    {
+      "description": "Shift-Space to Underscore",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "spacebar",
+            "modifiers": {
+                "mandatory": [
+                    "shift"
+                ],
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

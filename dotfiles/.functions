@@ -1,0 +1,27 @@
+function activate(){
+    builtin source activate "$@"
+}
+
+function deactivate(){
+    builtin source deactivate
+}
+
+function cd(){
+    builtin cd "$@" && ls -C
+}
+
+function h(){
+    history | tail -$1
+}
+
+function dc(){
+    docker-compose "$@"
+}
+
+function rt(){
+    cd ~/Vacasa/runway-tasks && $@
+}
+
+function rmr(){
+    cd ~/Vacasa/runway-model-rates && $@
+}
