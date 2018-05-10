@@ -2,10 +2,12 @@ cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'buo/cask-upgrade'
 
+brew 'bash-completion'
 brew 'cask'
 brew 'docker'
 brew 'git'
 brew 'mas'
+brew 'zsh-completions'
 
 cask '1password'
 cask 'atom'

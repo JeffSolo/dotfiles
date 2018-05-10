@@ -7,10 +7,12 @@
 ## Installs:
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * brews:
+  * bash-completion
   * [cask](https://caskroom.github.io)
   * [docker](https://www.docker.com)
   * [git](https://git-scm.com)
   * [mas](https://github.com/mas-cli/mas)
+  * zsh-completions
 
 * brew casks:
   * [1password](https://1password.com)
@@ -73,3 +75,4 @@
 * Set zsh to default shell
 * Set Finder to show all files
 * Turns off bluetooth auto-page device
+* Copies iTerm2 settings
