@@ -1,0 +1,48 @@
+#Thu May 10 09:27:46 MDT 2018
+\!/=
+/instance/org.eclipse.core.resources/encoding=UTF-8
+/instance/org.eclipse.core.resources/version=1
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+/instance/org.eclipse.e4.ui.css.swt.theme/themeid=org.eclipse.e4.ui.css.theme.e4_classic
+/instance/org.eclipse.e4.ui.workbench.renderers.swt/enableMRU=true
+/instance/org.eclipse.e4.ui.workbench.renderers.swt/themeEnabled=true
+/instance/org.eclipse.search/org.eclipse.search.defaultPerspective=org.eclipse.search.defaultPerspective.none
+/instance/org.eclipse.team.ui/org.eclipse.team.ui.first_time=false
+/instance/org.eclipse.ui.editors/SQLEditor.resultSet.ratio=544-455
+/instance/org.eclipse.ui.editors/overviewRuler_migration=migrated_3.1
+/instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.jkiss.dbeaver.ui.presentation.sql
+/instance/org.eclipse.ui.workbench/ColorsAndFontsPreferencePage.selectedElement=Corg.jkiss.dbeaver.sql.editor.color.delimiter.foreground
+/instance/org.eclipse.ui.workbench/SAVE_AUTOMATICALLY=true
+/instance/org.eclipse.ui.workbench/editors=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors>\n<descriptor class\="org.jkiss.dbeaver.ext.erd.editor.ERDEditorStandalone" id\="org.jkiss.dbeaver.ext.erd.editor.ERDEditorStandalone" image\="icons/erd.png" internal\="true" label\="ERD Editor" openMode\="1" open_in_place\="false" plugin\="org.jkiss.dbeaver.ext.erd"/>\n<descriptor class\="org.jkiss.dbeaver.ui.editors.sql.SQLEditor" id\="org.jkiss.dbeaver.ui.editors.sql.SQLEditor" image\="icons/sql/sql_script.png" internal\="true" label\="SQL Editor" openMode\="1" open_in_place\="false" plugin\="org.jkiss.dbeaver.core"/>\n</editors>
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding commandId\="org.jkiss.dbeaver.ui.editors.sql.run.statement" contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.jkiss.dbeaver.defaultKeyScheme" keySequence\="CTRL+/"/>\n<keyBinding contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+CR"/>\n<keyBinding contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+X"/>\n<keyBinding contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+CTRL+X"/>\n<keyBinding commandId\="org.jkiss.dbeaver.core.sql.editor.create" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.jkiss.dbeaver.defaultKeyScheme" keySequence\="COMMAND+N"/>\n<keyBinding commandId\="org.jkiss.dbeaver.core.sql.editor.create" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+T"/>\n<keyBinding commandId\="org.eclipse.ui.edit.text.openLocalFile" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.jkiss.dbeaver.defaultKeyScheme" keySequence\="COMMAND+O"/>\n<keyBinding commandId\="org.eclipse.ui.file.save" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+S"/>\n<keyBinding commandId\="org.eclipse.ui.file.saveAs" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+SHIFT+S"/>\n<keyBinding commandId\="org.jkiss.dbeaver.ui.editors.sql.run.script" contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.jkiss.dbeaver.defaultKeyScheme" keySequence\="CTRL+SHIFT+CR"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+F3"/>\n<keyBinding contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="COMMAND+N"/>\n<keyBinding contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+\\"/>\n<keyBinding contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="CTRL+\\"/>\n<keyBinding commandId\="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" contextId\="org.jkiss.dbeaver.ui.editors.sql" keyConfigurationId\="org.jkiss.dbeaver.defaultKeyScheme" keySequence\="CTRL+SHIFT+/"/>\n</org.eclipse.ui.commands>
+/instance/org.eclipse.ui.workbench/org.jkiss.dbeaver.sql.editor.color.delimiter.foreground=0,0,0
+/instance/org.eclipse.ui.workbench/resourcetypes=<?xml version\="1.0" encoding\="UTF-8"?>\n<editors version\="3.1">\n<info extension\="erd" name\="*">\n<editor id\="org.jkiss.dbeaver.ext.erd.editor.ERDEditorStandalone"/>\n</info>\n<info extension\="sql" name\="*">\n<editor id\="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>\n</info>\n</editors>
+/instance/org.jkiss.dbeaver.core/SQLEditor.closeBrackets=false
+/instance/org.jkiss.dbeaver.core/SQLEditor.closeDoubleQuotes=false
+/instance/org.jkiss.dbeaver.core/SQLEditor.closeSingleQuotes=false
+/instance/org.jkiss.dbeaver.core/SQLEditor.format.extractFromSource=false
+/instance/org.jkiss.dbeaver.core/SQLEditor.format.keywordCaseAuto=false
+/instance/org.jkiss.dbeaver.core/dataformat.profile.country=US
+/instance/org.jkiss.dbeaver.core/dataformat.profile.language=en
+/instance/org.jkiss.dbeaver.core/dataformat.type.number.useGrouping=false
+/instance/org.jkiss.dbeaver.core/dialog.default.folder=/Users/jeffsolomon/Desktop
+/instance/org.jkiss.dbeaver.core/entity.editor.info.sash.state=400
+/instance/org.jkiss.dbeaver.core/project.active=General
+/instance/org.jkiss.dbeaver.core/resultset.presentation.active=spreadsheet
+/instance/org.jkiss.dbeaver.core/resultset.text.value.format=UI
+/instance/org.jkiss.dbeaver.core/ui.auto.update.check.time=1525963674649
+/instance/org.jkiss.dbeaver.core/ui.drivers.home=/Users/jeffsolomon/.dbeaver-drivers
+/instance/org.jkiss.dbeaver.ext.erd/erd.attr.styles=ICONS
+/instance/org.jkiss.dbeaver.ext.erd/erd.attr.visibility=ALL
+@org.eclipse.core.resources=3.12.0.v20170417-1558
+@org.eclipse.debug.ui=3.12.50.v20170920-1329
+@org.eclipse.e4.ui.css.swt.theme=0.11.0.v20170312-2302
+@org.eclipse.e4.ui.workbench.renderers.swt=0.14.102.v20180117-1153
+@org.eclipse.search=3.11.100.v20170515-1603
+@org.eclipse.team.ui=3.8.1.v20170515-1133
+@org.eclipse.ui.editors=3.11.0.v20170202-1823
+@org.eclipse.ui.workbench=3.110.1.v20170704-1208
+@org.jkiss.dbeaver.core=5.0.3
+@org.jkiss.dbeaver.ext.erd=2.0.83
+file_export_version=3.0
