@@ -1,7 +1,6 @@
 DIR="$(dirname $0)"
 
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap buo/cask-upgrade
 brew tap homebrew/bundle
 brew bundle --file=$DIR/packages/Brewfile
 

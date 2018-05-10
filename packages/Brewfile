@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
-tap buo/cask-upgrade
+tap 'buo/cask-upgrade'
 
 brew 'cask'
 brew 'docker'
