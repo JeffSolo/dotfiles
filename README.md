@@ -101,14 +101,18 @@
 # Karabiner Elements Configuration
 * Fine tune volume controls
 * Double CMD-Q to quit
-* Swap `()` and `<>`
 
-* `CAPS LOCK`-> `HYPER` (`CMD-CTRL-OPT-SHIFT`), Escape if pressed alone
-* `Right CMD` -> `Left CTRL`
-* `Right OPT` -> `CAPS LOCK`
-* `SHIFT-SPACE` -> `Underscore`
-* `F3` -> `Home`
-* `F4` -> `End`
+| Old Key| New Key|
+|-|-|
+|`(`|`<`|
+|`)`|`>`|
+| `CAPS LOCK` | `HYPER-ANY_KEY` |
+| `CAPS LOCK` | `ESC`, |
+| `Right CMD` | `Left CTRL` |
+| `Right OPT` | `CAPS LOCK` |
+| `SHIFT-SPACE` | `Underscore` |
+| `Launchpad` (`FN-F3`) | `Home` |
+| `Dashboard` (`FN-F4`) | `End` |
 
 # Slate Configuration
 *Mostly stolen/modified from my [brother's config](https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/#managing-windows-with-slate)*
@@ -116,62 +120,75 @@
 *Works best with the Karabiner Config specified above*
 
 ### Window Size and Position Operations
-* `HYPER-O` : *Throw window to previous screen*
-* `HYPER-P` : *Throw window to next screen*
-* `HYPER-I` : *Maximize window on screen*
-* `HYPER-K` : *Window to top half of screen*
-* `HYPER-J` : *Window to bottom half of screen*
-* `HYPER-H` : *Window to left half of screen*
-* `HYPER-L` : *Window to right half of screen*
-* `HYPER-Y` : *Window to top left corner of screen*
-* `HYPER-U` : *Window to top right corner of screen*
-* `HYPER-N` : *Window to bottom left corner of screen*
-* `HYPER-M` : *Window to bottom right corner of screen*
+| Throw Window to | Triggered Hotkey* |
+|-|-|
+| Previous screen | `HYPER-O` |
+| Next screen | `HYPER-P` |
+
+| Move and resize window | Triggered Hotkey* |
+|-|-|
+| Maximize on screen | `HYPER-I` |
+| Top half of screen | `HYPER-K` |
+| Bottom half of screen | `HYPER-J` |
+| Left half of screen | `HYPER-H` |
+| Right half of screen | `HYPER-L` |
+| Top left corner of screen | `HYPER-Y` |
+| Top right corner of screen | `HYPER-U` |
+| Bottom left corner of screen | `HYPER-N` |
+| Bottom right corner of screen | `HYPER-M` |
 
 ### Focus Application Operations
-* `HYPER-Spacebar` : *Focus terminal*
-* `HYPER-D` : *Focus web browser* (Firefox)
-* `HYPER-S` : *Focus editor* (Visual Studio Code)
-* `HYPER-W` : *Focus music player* (Google Play Music Desktop Player)
-* `HYPER-Q` : *Focus Messages*
-* `HYPER-A` : *Focus pdf viewer* (Safari)
-* `HYPER-Z` : *Focus WhatsApp*
-* `HYPER-X` : *Focus Telegram*
-* `HYPER-E` : *Focus email client* (Kiwi for Gmail)
-* `HYPER-R` : *Focus Github Desktop*
-* `HYPER-F` : *Focus Finder*
+| Focus Application | Triggered Hotkey* |
+|-|-|
+| Terminal | `HYPER-Spacebar` |
+| Firefox | `HYPER-D` |
+| Visual Studio Code | `HYPER-S` |
+| Google Play Music | `HYPER-W` |
+| Messages | `HYPER-Q` |
+| Safari | `HYPER-A` |
+| WhatsApp| `HYPER-Z` |
+| Telegram| `HYPER-X` |
+| Kiwi for Gmail | `HYPER-E` |
+| Github Desktop | `HYPER-R` |
+| Finder | `HYPER-F` |
 
 # Better Touch Tool Configuration
   *Must manually import [config](./Settings/Default.bttpreset) into BetterTouchTool*
 
 ### Window Manipulation
-*Requires Slate config to work*
-
-* 3 Finger Swipe Left: *Throw to next screen* `HYPER-P`
-* 3 Finger Swipe Right: *Throw to previous screen* `HYPER-O`
-* 3 Finger Double Tap: *Maximize window on screen* `HYPER-I`
-* TipSwipe Left Finger Up (2 Finger Fix): *Window to top half of screen* `HYPER-K`
-* TipSwipe Left Finger Down (2 Finger Fix): *Window to bottom half of screen* `HYPER-J`
-* TipSwipe Left Finger Left (2 Finger Fix): *Window to left half of screen*
-* TipSwipe Left Finger Right (2 Finger Fix): *Window to right half of screen* `HYPER-L`
+*\* Requires Slate to work as intended*
+| Action | Gesture | Triggered Hotkey* |
+|-|-|-|
+|Throw to next screen| 3 Finger Swipe Left |`HYPER-P`|
+|Throw to previous screen| 3 Finger Swipe Right |`HYPER-O`|
+|Maximize window on screen| 3 Finger Double Tap |`HYPER-I`|
+|Window to top half of screen| TipSwipe Left Finger Up (2 Finger Fix) |`HYPER-K`|
+|Window to bottom half of screen| TipSwipe Left Finger Down (2 Finger Fix)  |`HYPER-J`|
+|Window to left half of screen| TipSwipe Left Finger Left (2 Finger Fix) |`HYPER-H`|
+|Window to right half of screen| TipSwipe Left Finger Right (2 Finger Fix) |`HYPER-L`|
 
 ### Common Operations
-* TipTap Left (2 Fingers Fix): *Copy* `CTRL-C`
-* TipTap Middle (2 Fingers Fix): *Cut* `CTRL-X`
-* TipTap Right (2 Fingers Fix): *Paste* `CTRL-V`
-* 2 Finger Click, Left Harder: *Undo* `CTRL-Z`
-* 2 Finger Click, Right Harder: *Redo* `CTRL-SHIFT-Z`
-* 5 Finger Swipe Up: *Volume Up* by small steps, hold
-* 5 Finger Swipe Down: *Volume Down* by small step, hold
-* 2 Finger Swipe from Outside Left: *Screenshot Editor*
-* 4 Finger Force Click: *Quit App*
+| Action | Gesture | Triggered Hotkey |
+|-|-|-|
+|Copy |A TipTap Left (2 Fingers Fix) |`CTRL-C`|
+|Cut | TipTap Middle (2 Fingers Fix) |`CTRL-X`|
+|Paste | TipTap Right (2 Fingers Fix) | `CTRL-V`|
+|Undo | 2 Finger Click, Left Harder  |`CTRL-Z`|
+|Redo | 2 Finger Click, Right Harder  |`CTRL-SHIFT-Z` |
+|Volume Up | 5 Finger Swipe Up, hold | |
+|Volume Down | 5 Finger Swipe Down, hold | |
+|Screenshot Editor | 2 Finger Swipe from Outside Left | |
+|Quit App | 4 Finger Force Click | |
 
 # Typical Tab Interactions
-### Works in most browsers
-* 3 Finger Clickswipe Up: *Close Tab* `CMD-SHIFT-T`
-* 3 Finger Clickswipe Down: *Reopen Closed Tab* `CMD-T`
-* 3 Finger Force Click: *New* `CMD-N`
-* 3 Finger Clickswipe Right: *Move to Previous Tab* `OPT-CMD-LEFT_ARROW`
-* 3 Finger Clickswipe Left: *Next Tab* `OPT-CMD-RIGHT_ARROW`
-* 3 Finger Click: *Open Link in New Tab* `CMD-Click`
-* Spread with Thumb and 2 Finger: *Refresh* `CMD-R`
+*Works in most browsers*
+| Action | Gesture | Triggered Hotkey |
+|-|-|-|
+| New Window| 3 Finger Force Click | `CMD-N` |
+| New Tab | 3 Finger Click | `CMD-T` |
+| Close Tab | 3 Finger Clickswipe Up | `CMD-W` |
+| Reopen Closed Tab | 3 Finger Clickswipe Down | `CMD-SHIFT-T` |
+| Move to Previous Tab | 3 Finger Clickswipe Right | `OPT-CMD-LEFT_ARROW` |
+| Move to Next Tab | 3 Finger Clickswipe Left | `OPT-CMD-RIGHT_ARROW` |
+| Open Link in New Tab | 3 Finger Click | `CMD-Click` |
+| Refresh| Spread with Thumb and 2 Finger | `CMD-R` |
