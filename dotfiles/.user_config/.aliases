@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+# Jeff's
+alias lsa='ls -a'
+alias lsla='ls -la'
+alias ls.='ls -d .?* '
+alias lsl='ls -l'
+alias lsd='ls -dl */'
+
+alias pgstart='pg_ctl -D /usr/local/var/postgres -l logfile start'
+alias pgstop='pg_ctl -D /usr/local/var/postgres -l logfile stop'
+
+alias nethack='ssh nethack@alt.org'
+alias juno='jupyter notebook'
+alias jup='bundle exec jekyll serve'

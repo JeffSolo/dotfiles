@@ -1,0 +1,13 @@
+name: web
+channels:
+  - defaults
+dependencies:
+  - django
+  - jinja2
+  - psycopg2
+  - pymysql
+  - flask
+  - pip:
+    - djangorestframework
+    - django-crispy-forms
+prefix: /usr/local/miniconda3/envs/web

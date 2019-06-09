@@ -1,0 +1,16 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - jupyter
+  - matplotlib
+  - mypy
+  - numpy
+  - pandas
+  - pip
+  - pytest
+  - scipy
+  - pip:
+    - pyyaml
+prefix: /usr/local/miniconda3/envs/base
+

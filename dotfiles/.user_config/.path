@@ -4,3 +4,6 @@ PATH=/usr/bin/sudo:$PATH
 PATH=/usr/local/sbin:$PATH
 PATH=/usr/local/miniconda3/bin:$PATH
 export PATH
+
+export export VISUAL=vim
+export EDITOR="$VISUAL"

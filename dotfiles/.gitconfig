@@ -8,11 +8,12 @@
   co = checkout
   cob = checkout -b
   cfg = config --global -e
+  save = stash
+  load = !git stash pop --index $@
+  saves = stash list
+  cm = commit -m
   amend = commit -a --amend
   po = !git push -u origin $(git describe --contains --all HEAD)
-  email = config user.email $@
-  setwork = config user.email "jeff.solomon@vacasa.com"
-  sethome = config user.email "jeffreycsolomon@gmail.com"
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
   ui = auto
@@ -37,7 +38,7 @@
 
 [user]
 	name = jeffsolo
-    useConfigOnly = true
+  useConfigOnly = true
 	email = jeffreycsolomon@gmail.com
 [merge]
 	tool = opendiff
@@ -46,7 +47,7 @@
 	eol = lf
 	autocrlf = input
 [filter "lfs"]
-	process = git-lfs filter-process
-	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

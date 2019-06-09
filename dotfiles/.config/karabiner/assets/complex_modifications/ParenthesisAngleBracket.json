@@ -1,0 +1,98 @@
+{
+  "title": "Swap Parentheses and Angle Brackets",
+  "rules": [
+    {
+      "description": "Swap Parentheses and Angle Brackets",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+                "mandatory": [
+                    "shift"
+                ],
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+                "mandatory": [
+                    "shift"
+                ],
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "0",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "0",
+            "modifiers": {
+                "mandatory": [
+                    "shift"
+                ],
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "period",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "9",
+            "modifiers": {
+                "mandatory": [
+                    "shift"
+                ],
+                "optional": [
+                    "caps_lock"
+                ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "comma",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

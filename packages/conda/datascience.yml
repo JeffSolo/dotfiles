@@ -1,0 +1,12 @@
+name: datascience
+channels:
+  - defaults
+dependencies:
+  - biopython
+  - psycopg2
+  - pymysql
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - sympy
+prefix: /usr/local/miniconda3/envs/datascience
