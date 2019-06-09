@@ -84,19 +84,22 @@
 
 # Git Aliases
 *Most aliases taken from [Phil Haack](https://haacked.com/archive/2014/07/28/github-flow-aliases/)*
-* **tags**: List all tags `git tag -l`
-* **branches**: *List all branches* `git branch -a`
-* **remotes**: *List all remotes* `git remote -v`
-* **hist**: *Show pretty log* `git log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative`
-* **co**: *Checkout* `git checkout`
-* **cob**: *Checkout New Branch* `git checkout -b`
-* **cfg**: *Global Config* `git config --global -e`
-* **save**: *Stash Current work* `git stash`
-* **load**: *Load last save* `git !git stash pop --index $@`
-* **saves**: *List all saves* `git stash list`
-* **cm**: *Commit* `git commit -m`
-* **amend**: *Amend*`git commit -a --amend`
-* **po**: *Push to origin* `!git push -u origin $(git describe --contains --all HEAD)`
+
+| Alias | Action | Git Command |
+|-|-|-|
+|**tags** | List all tags |`git tag -l`
+|**branches** | List all branches |`git branch -a`
+|**remotes** | List all remotes |`git remote -v`
+|**hist** | Show pretty log |`git log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative`
+|**co** | Checkout | `git checkout`
+|**cob** | Checkout New Branch | `git checkout -b`
+|**cfg** | Global Config | `git config --global -e`
+|**save** | Stash Current work | `git stash`
+|**load** | Load last save | `git !git stash pop --index $@`
+|**saves** | List all saves | `git stash list`
+|**cm** | Commit | `git commit -m`
+|**amend** | Amend | `git commit -a --amend`
+|**po** | Push to origin | `!git push -u origin $(git describe --contains --all HEAD)`
 
 # Karabiner Elements Configuration
 * Fine tune volume controls
@@ -120,12 +123,12 @@
 *Works best with the Karabiner Config specified above*
 
 ### Window Size and Position Operations
-| Throw Window to | Triggered Hotkey* |
+| Throw Window to | Triggered Hotkey |
 |-|-|
 | Previous screen | `HYPER-O` |
 | Next screen | `HYPER-P` |
 
-| Move and resize window | Triggered Hotkey* |
+| Move and resize window | Triggered Hotkey |
 |-|-|
 | Maximize on screen | `HYPER-I` |
 | Top half of screen | `HYPER-K` |
@@ -138,7 +141,7 @@
 | Bottom right corner of screen | `HYPER-M` |
 
 ### Focus Application Operations
-| Focus Application | Triggered Hotkey* |
+| Focus Application | Triggered Hotkey |
 |-|-|
 | Terminal | `HYPER-Spacebar` |
 | Firefox | `HYPER-D` |
@@ -157,6 +160,7 @@
 
 ### Window Manipulation
 *\* Requires Slate to work as intended*
+
 | Action | Gesture | Triggered Hotkey* |
 |-|-|-|
 |Throw to next screen| 3 Finger Swipe Left |`HYPER-P`|
@@ -182,6 +186,7 @@
 
 # Typical Tab Interactions
 *Works in most browsers*
+
 | Action | Gesture | Triggered Hotkey |
 |-|-|-|
 | New Window| 3 Finger Force Click | `CMD-N` |
