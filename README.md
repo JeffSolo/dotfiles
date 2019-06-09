@@ -45,7 +45,7 @@
     * [numpy](http://www.numpy.org)
     * [pandas](https://pandas.pydata.org/)
     * [pip](https://pypi.org/project/pip/)
-    * [pylama](https://www.pylint.org)
+    * [pylama](https://github.com/klen/pylama)
     * [pytest](https://docs.pytest.org/latest/)
     * [pyyaml](https://pyyaml.org/)
     * [scipy](https://www.scipy.org)
