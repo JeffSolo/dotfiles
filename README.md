@@ -155,6 +155,17 @@
 | Github Desktop | `HYPER-R` |
 | Finder | `HYPER-F` |
 
+# System Trackpad Gestures Configuration
+*`System Preferences -> Trackpad` settings*
+
+|Action | Gesture|
+|-|-|
+|Swipe Between Fullscreen Apps | Left/Right Swipe with 4 fingers|
+|Mission Control | 4 finger Swipe Up |
+|App Exposé| 4 Finger Swipe Up |
+|Show Desktop| Spread with Thumb and 3 Fingers |
+|Launchpad| Pinch with Thumb and 3 Fingers |
+
 # Better Touch Tool Configuration
   *Must manually import [config](./Settings/Default.bttpreset) into BetterTouchTool*
 
@@ -163,6 +174,7 @@
 
 | Action | Gesture | Triggered Hotkey* |
 |-|-|-|
+|Toggle Fullscreen Mode| 4 Finger Double Tap |`HYPER-I`|
 |Throw to next screen| 3 Finger Swipe Left |`HYPER-P`|
 |Throw to previous screen| 3 Finger Swipe Right |`HYPER-O`|
 |Maximize window on screen| 3 Finger Double Tap |`HYPER-I`|

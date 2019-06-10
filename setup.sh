@@ -1,5 +1,6 @@
 DIR="$(dirname $0)"
 CONDA_DIR="$DIR/packages/conda/"
+PREF_DIR="$DIR/settings/preferences/"
 
 # install xcode command line tools
 xcode-select --install
@@ -42,8 +43,12 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/cu
 # copy dotfiles to home
 cp -Riv $DIR/dotfiles/.[^.]* ~
 
-# copy settings for iterm2
-cp -iv $DIR/settings/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+# copy Library/Preferences, includes trackpad and iterm2 settings
+for file in "$PREF_DIR"*;
+do
+    filename=$(basename "$file")
+    cp -v "$file" "~/Library/Preferences/"
+done
 
 # change shell to zsh
 chsh -s /bin/zsh
