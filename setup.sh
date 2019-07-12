@@ -1,17 +1,29 @@
 DIR="$(dirname $0)"
 CONDA_DIR="$DIR/packages/conda/"
 PREF_DIR="$DIR/settings/preferences/"
+unameOut="$(uname -s)"
+case "${unameOut}" in
+    Linux*)     SYSTEM_TYPE="Linux";;
+    Darwin*)    SYSTEM_TYPE="Mac";;
+    *)          SYSTEM_TYPE="OTHER";;
+esac
 
-# install xcode command line tools
-xcode-select --install
+# install xcode command line tools on Mac
+if [[ ${SYSTEM_TYPE} == "Mac" ]]
+then
+    xcode-select --install
+fi
 
-# install homebrew and packages
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew tap homebrew/bundle
-brew bundle --file=$DIR/packages/Brewfile
+if [[ ${SYSTEM_TYPE} == "Mac" ]]
+then
+    # install homebrew and packages
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew tap homebrew/bundle
+    brew bundle --file=$DIR/packages/Brewfile
 
-sudo defaults write com.apple.finder AppleShowAllFiles -bool true
-sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
+    sudo defaults write com.apple.finder AppleShowAllFiles -bool true
+    sudo defaults write /Library/Preferences/com.apple.Bluetooth.plist DontPageAudioDevices 1
+fi
 
 # Create base conda environment, plus any other .yml files and update them with the base environment
 for file in "$CONDA_DIR"*;
@@ -43,6 +55,7 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/cu
 # copy dotfiles to home
 cp -Riv $DIR/dotfiles/.[^.]* ~
 
+# TODO: Tslint not copied?
 # copy Library/Preferences, includes trackpad and iterm2 settings
 for file in "$PREF_DIR"*;
 do
