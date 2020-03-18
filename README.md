@@ -11,9 +11,11 @@
   * bash-completion
   * [cask](https://caskroom.github.io)
   * [docker](https://www.docker.com)
+  * [docker-compose](https://docs.docker.com/compose/)
   * [git](https://git-scm.com)
   * [node](https://nodejs.org/)
   * [postgresql](https://www.postgresql.org/)
+  * [ruby](https://www.ruby-lang.org/en/)
   * [the-silver-searcher](https://github.com/ggreer/the_silver_searcher)
   * zsh-completions
   * zsh-syntax-highlighting
@@ -24,49 +26,44 @@
   * [github-desktop](https://desktop.github.com)
   * [google-chrome](https://www.google.com/chrome/index.html)
   * [google-drive](https://www.google.com/drive/)
+  * [hammerspoon](https://www.hammerspoon.org/)
   * [iterm2](https://www.iterm2.com)
   * [java](https://www.java.com/en/)
   * [karabiner-elements](https://github.com/tekezo/Karabiner-Elements)
   * [kitematic](https://kitematic.com)
   * [mactex-no-gui](https://www.tug.org/mactex/)
-  * [marshallofsound-google-play-music-desktop-player](https://www.googleplaymusicdesktopplayer.com)
   * [miniconda](https://conda.io/miniconda.html)
   * [sequel-pro](https://sequelpro.com/)
   * [slack](https://slack.com)
-  * [slate](https://github.com/jigish/slate)
+  * [spotify](https://www.spotify.com/)
   * [steam](https://store.steampowered.com/)
   * [visual-studio-code](https://code.visualstudio.com/)
 
 * miniconda with preset environments
   * `base` environment
+    * [biopython](https://biopython.org/)
+    * [django](https://www.djangoproject.com/)
+    * [jinja2](http://jinja.pocoo.org/)
     * [jupyter](http://jupyter.org)
     * [matplotlib](https://matplotlib.org)
     * [mypy](http://mypy-lang.org/)
     * [numpy](http://www.numpy.org)
     * [pandas](https://pandas.pydata.org/)
     * [pip](https://pypi.org/project/pip/)
+    * [psycopg2](http://initd.org/psycopg/)
+    * [pyflakes](https://pypi.org/project/pyflakes/)
     * [pylama](https://github.com/klen/pylama)
+    * [pylint](https://www.pylint.org/)
+    * [pymysql](https://pymysql.readthedocs.io/en/latest/)
     * [pytest](https://docs.pytest.org/latest/)
     * [pyyaml](https://pyyaml.org/)
-    * [scipy](https://www.scipy.org)
-  * `web` environment
-    * `base` environment packages, plus:
-    * [django](https://www.djangoproject.com/)
-    * [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)
-    * [djangorestframework](https://www.django-rest-framework.org/)
-    * [flask](http://flask.pocoo.org/)
-    * [jinja2](http://jinja.pocoo.org/)
-    * [psycopg2](http://initd.org/psycopg/)
-    * [pymysql](https://pymysql.readthedocs.io/en/latest/)
-  * `datascience` environment
-    * `base` environment packages, plus:
-    * [biopython](https://biopython.org/)
+    * [r-base](https://anaconda.org/r/r-base)
+    * [requests](https://2.python-requests.org/en/master/)
     * [scikit-learn](https://scikit-learn.org/stable/index.html)
+    * [scipy](https://www.scipy.org)
+    * [seaborn](https://seaborn.pydata.org/)
     * [statsmodels](http://www.statsmodels.org/stable/index.html)
     * [sympy](https://www.sympy.org/en/index.html)
-    * [seaborn](https://seaborn.pydata.org/)
-    * [psycopg2](http://initd.org/psycopg/)
-    * [pymysql](https://pymysql.readthedocs.io/en/latest/)
 
 * node
   * ESlint
@@ -78,8 +75,6 @@
 
 # Misc configs:
 * Set zsh to default shell
-* Set Finder to show all files
-* Turns off bluetooth auto-page device
 * Copies iTerm2 settings
 
 # Git Aliases
@@ -107,8 +102,6 @@
 
 | Old Key| New Key|
 |-|-|
-|`(`|`<`|
-|`)`|`>`|
 | `CAPS LOCK` | `HYPER-ANY_KEY` |
 | `CAPS LOCK` | `ESC`, |
 | `Right CMD` | `Left CTRL` |
@@ -117,7 +110,7 @@
 | `Launchpad` (`FN-F3`) | `Home` |
 | `Dashboard` (`FN-F4`) | `End` |
 
-# Slate Configuration
+# Hammerspoon Configuration
 *Mostly stolen/modified from my [brother's config](https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/#managing-windows-with-slate)*
 
 *Works best with the Karabiner Config specified above*
@@ -143,17 +136,19 @@
 ### Focus Application Operations
 | Focus Application | Triggered Hotkey |
 |-|-|
-| Terminal | `HYPER-Spacebar` |
-| Firefox | `HYPER-D` |
-| Visual Studio Code | `HYPER-S` |
-| Google Play Music | `HYPER-W` |
-| Messages | `HYPER-Q` |
-| Safari | `HYPER-A` |
-| WhatsApp| `HYPER-Z` |
-| Telegram| `HYPER-X` |
+| iTerm | `HYPER-Spacebar` |
+| Window Select | `HYPER-Q` |
+| Spotify | `HYPER-W` |
 | Kiwi for Gmail | `HYPER-E` |
-| Github Desktop | `HYPER-R` |
+| Microsoft OneNote | `HYPER-A` |
+| Visual Studio Code | `HYPER-S` |
+| Google Chrome | `HYPER-D` |
 | Finder | `HYPER-F` |
+| Translate | `HYPER-Z` |
+| Preview | `HYPER-X` |
+| Messages | `HYPER-M` |
+| Calendar | `HYPER-C` |
+| Clipboard History | `HYPER-;` |
 
 # System Trackpad Gestures Configuration
 *`System Preferences -> Trackpad` settings*
@@ -174,7 +169,7 @@
 
 | Action | Gesture | Triggered Hotkey* |
 |-|-|-|
-|Toggle Fullscreen Mode| 4 Finger Double Tap |`HYPER-I`|
+|Toggle Fullscreen Mode| 4 Finger Double Tap ||
 |Throw to next screen| 3 Finger Swipe Left |`HYPER-P`|
 |Throw to previous screen| 3 Finger Swipe Right |`HYPER-O`|
 |Maximize window on screen| 3 Finger Double Tap |`HYPER-I`|
@@ -186,13 +181,11 @@
 ### Common Operations
 | Action | Gesture | Triggered Hotkey |
 |-|-|-|
-|Copy |A TipTap Left (2 Fingers Fix) |`CTRL-C`|
-|Cut | TipTap Middle (2 Fingers Fix) |`CTRL-X`|
-|Paste | TipTap Right (2 Fingers Fix) | `CTRL-V`|
 |Undo | 2 Finger Click, Left Harder  |`CTRL-Z`|
 |Redo | 2 Finger Click, Right Harder  |`CTRL-SHIFT-Z` |
 |Volume Up | 5 Finger Swipe Up, hold | |
 |Volume Down | 5 Finger Swipe Down, hold | |
+|Play/Pause | 5 Finger Tap | |
 |Screenshot Editor | 2 Finger Swipe from Outside Left | |
 |Quit App | 4 Finger Force Click | |
 

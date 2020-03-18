@@ -12,7 +12,7 @@
   load = !git stash pop --index $@
   saves = stash list
   cm = commit -m
-  amend = commit -a --amend
+  amend = commit --amend
   po = !git push -u origin $(git describe --contains --all HEAD)
 [color]
   # Use colors in Git commands that are capable of colored output when outputting to the terminal
@@ -37,7 +37,7 @@
   merge = refs/heads/master
 
 [user]
-	name = jeffsolo
+	name = JeffSolo
   useConfigOnly = true
 	email = jeffreycsolomon@gmail.com
 [merge]

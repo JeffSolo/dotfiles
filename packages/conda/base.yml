@@ -1,16 +1,30 @@
 name: base
 channels:
   - defaults
+  - conda-forge
 dependencies:
+  - biopython
+  - django
+  - jinja2
   - jupyter
   - matplotlib
   - mypy
   - numpy
   - pandas
   - pip
+  - psycopg2
+  - pyflakes
+  - pylama
+  - pylint
+  - pymysql
   - pytest
+  - r-base
+  - requests
+  - scikit-learn
   - scipy
-  - pip:
-    - pyyaml
+  - seaborn
+  - statsmodels
+  - sympy
+  - twine
+  - yaml
 prefix: /usr/local/miniconda3/envs/base
-

@@ -1,3 +1,4 @@
+
 # Compile Typescript and run
 function tscr(){
     js=""
@@ -19,32 +20,12 @@ function tscr(){
     fi
 }
 
-# django manage
-function djm(){
-    python manage.py "$@"
-}
-
-#django admin
-function dja(){
-    django-admin "$@"
-}
-
-# activate conda environment
-function cenv(){
-    conda activate "$@"
-}
-
-# deactivate conda environment
-function deactivate(){
-    conda deactivate
-}
-
 # list contents after CD
 function cd(){
     builtin cd "$@" && ls -C
 }
 
-# show last N lines of history
-function h(){
-    history | tail -$1
+
+function uds(){
+    ~/Dropbox/Schooling/UdS/"$@"
 }

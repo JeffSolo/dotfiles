@@ -1,0 +1,36 @@
+{
+  "title": "F20",
+  "rules": [
+    {
+      "description": "Change F20 key to command+control+option+shift. (Post escape key when pressed alone)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f20",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command",
+              "modifiers": [
+                "left_shift",
+                "left_control",
+                "left_option"
+              ]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "escape"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
