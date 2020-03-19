@@ -21,6 +21,9 @@
   * zsh-syntax-highlighting
 
 * brew casks:
+  * [adobe-acrobat-reader](https://get.adobe.com/reader/)
+  * [anki](https://apps.ankiweb.net/)
+  * [bettertouchtool](https://folivora.ai/)
   * [dropbox](https://www.dropbox.com)
   * [firefox](https://www.mozilla.org/en-US/firefox/new/)
   * [github-desktop](https://desktop.github.com)
@@ -32,12 +35,17 @@
   * [karabiner-elements](https://github.com/tekezo/Karabiner-Elements)
   * [kitematic](https://kitematic.com)
   * [mactex-no-gui](https://www.tug.org/mactex/)
+  * [minecraft](https://www.minecraft.net/en-us/)
   * [miniconda](https://conda.io/miniconda.html)
+  * [scroll-reverser](https://pilotmoon.com/scrollreverser/)
   * [sequel-pro](https://sequelpro.com/)
   * [slack](https://slack.com)
   * [spotify](https://www.spotify.com/)
   * [steam](https://store.steampowered.com/)
+  * [telegram](https://telegram.org/)
   * [visual-studio-code](https://code.visualstudio.com/)
+  * [whatsapp](https://www.whatsapp.com/)
+  * [xquartz](https://www.xquartz.org/)
 
 * miniconda with preset environments
   * `base` environment
@@ -99,16 +107,22 @@
 # Karabiner Elements Configuration
 * Fine tune volume controls
 * Double CMD-Q to quit
-
+* Shift moves cursor 1 word left/right
+  
 | Old Key| New Key|
 |-|-|
 | `CAPS LOCK` | `HYPER-ANY_KEY` |
 | `CAPS LOCK` | `ESC`, |
 | `Right CMD` | `Left CTRL` |
 | `Right OPT` | `CAPS LOCK` |
-| `SHIFT-SPACE` | `Underscore` |
-| `Launchpad` (`FN-F3`) | `Home` |
-| `Dashboard` (`FN-F4`) | `End` |
+
+| Combo | Output |
+|-|-|
+| `SHIFT-SPACE` | `_` |
+| `Left OPT-A`  | `Ä` |
+| `Left OPT-O`  | `Ö` |
+| `Left OPT-U`  | `Ü` |
+| `Left OPT-4`  | `€` |
 
 # Hammerspoon Configuration
 *Mostly stolen/modified from my [brother's config](https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/#managing-windows-with-slate)*
