@@ -18,15 +18,19 @@ alias aprestart='apachectl -k restart'
 alias juno='jupyter notebook'
 alias hjuno='ssh -N -L localhost:8887:localhost:8086 hiwi &'
 
-alias cip='fswatch -0 ~/Dropbox/Schooling/UdS/Cpp/Assignments | xargs -0 -n 1 -I {} ~/.rsync.sh &; ssh cip'
+#alias cip='fswatch -0 ~/Dropbox/Schooling/UdS/Cpp/Assignments | xargs -0 -n 1 -I {} ~/.rsync.sh &; ssh cip'
+alias cip='ssh cip'
 alias rna='ssh rna'
 alias hiwi='ssh hiwi'
+
+# interact with jekyll container
+alias jup='docker start -i jekyll'
+alias jekyll='docker exec -it jekyll bash'
 
 alias cdea='conda deactivate'
 alias -g cenv='conda activate'
 alias -g dja='django-admin'
 alias -g djm='python manage.py'
-alias -g jup='bundle exec jekyll serve'
 
 alias nethack='ssh nethack@alt.org'
 

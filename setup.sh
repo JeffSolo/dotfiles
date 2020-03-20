@@ -49,6 +49,7 @@ npm install -g react
 # install VScode settings sync extension (will use  that to download all VS code settings/extensions)
 code --install-extension shan.code-settings-sync
 
-# install ruby bundler (for jekyll)
-gem install --user-install bundler jekyll
-bundle install
+# install jekyll docker container
+docker pull jekyll/jekyll
+# will need to download via dropbox and navigate to folder first - do manually
+# docker run --name website --volume="$PWD:/srv/jekyll" -p 4000:4000 -it jekyll/jekyll jekyll serve --watch
