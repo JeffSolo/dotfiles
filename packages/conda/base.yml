@@ -11,7 +11,6 @@ dependencies:
   - mypy
   - numpy
   - pandas
-  - pip
   - psycopg2
   - pyflakes
   - pylama
@@ -19,12 +18,10 @@ dependencies:
   - pymysql
   - pytest
   - r-base
-  - requests
   - scikit-learn
   - scipy
   - seaborn
   - statsmodels
   - sympy
   - twine
-  - yaml
 prefix: /usr/local/miniconda3/envs/base

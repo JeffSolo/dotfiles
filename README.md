@@ -1,10 +1,12 @@
 # Initial Mac setup
 
-`git clone https://github.com/JeffSolo/dotfiles.git ~/MacSetup`
+Assuming a fresh Mac install, we can't just use `git clone` without installing Xcode.  
+Manually download, navigate to the repo, and run `bash setup.sh`
+Mac will nag you a couple times to install Xcode - it's not required (Xcode command line tools will be installed during setup).
 
-`source ~/MacSetup/setup.sh`
 
 ## Installs:
+* Xcode command line tools
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
 * brews:
@@ -28,7 +30,6 @@
   * [firefox](https://www.mozilla.org/en-US/firefox/new/)
   * [github-desktop](https://desktop.github.com)
   * [google-chrome](https://www.google.com/chrome/index.html)
-  * [google-drive](https://www.google.com/drive/)
   * [hammerspoon](https://www.hammerspoon.org/)
   * [iterm2](https://www.iterm2.com)
   * [java](https://www.java.com/en/)
@@ -57,16 +58,13 @@
     * [mypy](http://mypy-lang.org/)
     * [numpy](http://www.numpy.org)
     * [pandas](https://pandas.pydata.org/)
-    * [pip](https://pypi.org/project/pip/)
     * [psycopg2](http://initd.org/psycopg/)
     * [pyflakes](https://pypi.org/project/pyflakes/)
     * [pylama](https://github.com/klen/pylama)
     * [pylint](https://www.pylint.org/)
     * [pymysql](https://pymysql.readthedocs.io/en/latest/)
     * [pytest](https://docs.pytest.org/latest/)
-    * [pyyaml](https://pyyaml.org/)
     * [r-base](https://anaconda.org/r/r-base)
-    * [requests](https://2.python-requests.org/en/master/)
     * [scikit-learn](https://scikit-learn.org/stable/index.html)
     * [scipy](https://www.scipy.org)
     * [seaborn](https://seaborn.pydata.org/)
@@ -195,8 +193,8 @@
 ### Common Operations
 | Action | Gesture | Triggered Hotkey |
 |-|-|-|
-|Undo | 2 Finger Click, Left Harder  |`CTRL-Z`|
-|Redo | 2 Finger Click, Right Harder  |`CTRL-SHIFT-Z` |
+|Undo | 2 Finger Click, Left Harder  |`CMD-Z`|
+|Redo | 2 Finger Click, Right Harder  |`CMD-SHIFT-Z` |
 |Volume Up | 5 Finger Swipe Up, hold | |
 |Volume Down | 5 Finger Swipe Down, hold | |
 |Play/Pause | 5 Finger Tap | |
@@ -208,11 +206,11 @@
 
 | Action | Gesture | Triggered Hotkey |
 |-|-|-|
+| Open Link in New Tab | 3 Finger Tap | `CMD-Click` |
 | New Window| 3 Finger Force Click | `CMD-N` |
 | New Tab | 3 Finger Click | `CMD-T` |
 | Close Tab | 3 Finger Clickswipe Up | `CMD-W` |
 | Reopen Closed Tab | 3 Finger Clickswipe Down | `CMD-SHIFT-T` |
 | Move to Previous Tab | 3 Finger Clickswipe Right | `OPT-CMD-LEFT_ARROW` |
 | Move to Next Tab | 3 Finger Clickswipe Left | `OPT-CMD-RIGHT_ARROW` |
-| Open Link in New Tab | 3 Finger Click | `CMD-Click` |
 | Refresh| Spread with Thumb and 2 Finger | `CMD-R` |
