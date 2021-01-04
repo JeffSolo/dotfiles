@@ -1,0 +1,109 @@
+{
+  "title": "Mouse button combinations",
+  "rules": [
+    {
+      "description": "Mouse Button2 as Control",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button2",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_control"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "pointing_button": "button2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Mouse Button3 as fn",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button3",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "fn"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "pointing_button": "button3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Mouse Button4 as Command",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button4",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_command"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "pointing_button": "button4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Mouse Button5 as Option",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_option"
+            }
+          ],
+          "to_if_alone": [
+            {
+              "pointing_button": "button5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -55,12 +55,13 @@ ZSH_THEME="steeef"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse zsh-syntax-highlighting)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx python zsh-syntax-highlighting extract sudo thefuck bgnotify colored-man-pages git-auto-fetch)
+plugins=(python zsh-syntax-highlighting extract thefuck bgnotify colored-man-pages git-auto-fetch)
 
 bgnotify_threshold=10
 
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
+eval $(thefuck --alias)
 
 fpath=(/usr/local/share/zsh-completions $fpath)
 

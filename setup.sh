@@ -40,12 +40,6 @@ do
 done
 conda env update --file base.yml
 
-# install global node packages
-npm install -g eslint
-npm install -g typescript
-npm install -g tslint
-npm install -g react
-
 # install VScode settings sync extension (will use  that to download all VS code settings/extensions)
 code --install-extension shan.code-settings-sync
 

@@ -5,7 +5,6 @@ channels:
 dependencies:
   - biopython
   - django
-  - jinja2
   - jupyter
   - matplotlib
   - mypy
@@ -21,7 +20,4 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn
-  - statsmodels
-  - sympy
-  - twine
 prefix: /usr/local/miniconda3/envs/base

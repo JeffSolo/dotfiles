@@ -22,6 +22,7 @@ alias hjuno='ssh -N -L localhost:8887:localhost:8086 hiwi &'
 alias cip='ssh cip'
 alias rna='ssh rna'
 alias hiwi='ssh hiwi'
+alias hips='ssh hips'
 
 # interact with jekyll container
 alias jup='docker start -i jekyll'
@@ -35,6 +36,7 @@ alias -g djm='python manage.py'
 alias nethack='ssh nethack@alt.org'
 
 alias -g dc='docker-compose'
-alias -g dcl='docker-compose -f local.yml'
+alias -g dcl='docker-compose -p `basename $PWD` -f ./webserver/local.yml'
+alias -g dcd='docker-compose -p `basename $PWD` -f ./docker/development.yml'
 
 alias -g crun='make && '

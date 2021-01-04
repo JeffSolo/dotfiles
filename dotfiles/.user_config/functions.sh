@@ -29,3 +29,8 @@ function cd(){
 function uds(){
     ~/Dropbox/Schooling/UdS/"$@"
 }
+
+# add blank space to dock
+function spacer(){
+    defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}' && killall Dock
+}

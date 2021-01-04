@@ -23,36 +23,30 @@ Mac will nag you a couple times to install Xcode - it's not required (Xcode comm
   * zsh-syntax-highlighting
 
 * brew casks:
-  * [adobe-acrobat-reader](https://get.adobe.com/reader/)
-  * [anki](https://apps.ankiweb.net/)
+  * [1password](https://1password.com/)
+  * [1password-cli](https://support.1password.com/command-line-getting-started/)
   * [bettertouchtool](https://folivora.ai/)
+  * [discord](https://www.discord.com)
   * [dropbox](https://www.dropbox.com)
   * [firefox](https://www.mozilla.org/en-US/firefox/new/)
-  * [github-desktop](https://desktop.github.com)
   * [google-chrome](https://www.google.com/chrome/index.html)
   * [hammerspoon](https://www.hammerspoon.org/)
   * [iterm2](https://www.iterm2.com)
   * [java](https://www.java.com/en/)
   * [karabiner-elements](https://github.com/tekezo/Karabiner-Elements)
-  * [kitematic](https://kitematic.com)
   * [mactex-no-gui](https://www.tug.org/mactex/)
-  * [minecraft](https://www.minecraft.net/en-us/)
+  * [microsoft-edge](https://www.microsoft.com/edge)
   * [miniconda](https://conda.io/miniconda.html)
-  * [scroll-reverser](https://pilotmoon.com/scrollreverser/)
-  * [sequel-pro](https://sequelpro.com/)
+  * [nvidia-geforce-now](https://www.nvidia.com/en-us/geforce-now/games/)
   * [slack](https://slack.com)
-  * [spotify](https://www.spotify.com/)
-  * [steam](https://store.steampowered.com/)
   * [telegram](https://telegram.org/)
   * [visual-studio-code](https://code.visualstudio.com/)
-  * [whatsapp](https://www.whatsapp.com/)
-  * [xquartz](https://www.xquartz.org/)
+  * [zoom](https://zoom.us/)
 
-* miniconda with preset environments
-  * `base` environment
+* miniconda with preset environments:
+  * `base` environment:
     * [biopython](https://biopython.org/)
     * [django](https://www.djangoproject.com/)
-    * [jinja2](http://jinja.pocoo.org/)
     * [jupyter](http://jupyter.org)
     * [matplotlib](https://matplotlib.org)
     * [mypy](http://mypy-lang.org/)
@@ -68,16 +62,9 @@ Mac will nag you a couple times to install Xcode - it's not required (Xcode comm
     * [scikit-learn](https://scikit-learn.org/stable/index.html)
     * [scipy](https://www.scipy.org)
     * [seaborn](https://seaborn.pydata.org/)
-    * [statsmodels](http://www.statsmodels.org/stable/index.html)
-    * [sympy](https://www.sympy.org/en/index.html)
 
-* node
-  * ESlint
-  * React
-  * Typescript
-  * TSlint
-
-* [ruby bundler](http://bundler.io)
+* docker containers:
+  * [jekyll/jekyll](https://hub.docker.com/r/jekyll/jekyll) 
 
 # Misc configs:
 * Set zsh to default shell
@@ -110,22 +97,37 @@ Mac will nag you a couple times to install Xcode - it's not required (Xcode comm
 | Old Key| New Key|
 |-|-|
 | `CAPS LOCK` | `HYPER-ANY_KEY` |
-| `CAPS LOCK` | `ESC`, |
+| `CAPS LOCK` | `ESC` |
 | `Right CMD` | `Left CTRL` |
 | `Right OPT` | `CAPS LOCK` |
+| `f3` | `Home` |
+| `f4` | `End` |
 
 | Combo | Output |
 |-|-|
-| `SHIFT-SPACE` | `_` |
-| `Left OPT-A`  | `Ä` |
-| `Left OPT-O`  | `Ö` |
-| `Left OPT-U`  | `Ü` |
+| `SHIFT-SPACE` | `_` (Underscore)|
+| `Left OPT-A`  | `Ä` (case-sensitive)|
+| `Left OPT-O`  | `Ö` (case-sensitive)|
+| `Left OPT-U`  | `Ü` (case-sensitive)|
 | `Left OPT-4`  | `€` |
+
+| Mouse | Common | Output |
+|-|-|-|
+| `Button2` | Right Click | `Left CTRL` |
+| `Button3` | Middle Click | `FN` |
+| `Button4` | Back | `Left CMD` |
+| `Button5` | Forward | `Left OPT` |
 
 # Hammerspoon Configuration
 *Mostly stolen/modified from my [brother's config](https://msol.io/blog/tech/work-more-efficiently-on-your-mac-for-developers/#managing-windows-with-slate)*
 
 *Works best with the Karabiner Config specified above*
+
+* Spoons:
+  * BingDaily
+  * ClipboardTool
+  * DeepLTranslate 
+  * PopupTranslateSelection
 
 ### Window Size and Position Operations
 | Throw Window to | Triggered Hotkey |
@@ -144,73 +146,88 @@ Mac will nag you a couple times to install Xcode - it's not required (Xcode comm
 | Top right corner of screen | `HYPER-U` |
 | Bottom left corner of screen | `HYPER-N` |
 | Bottom right corner of screen | `HYPER-M` |
+| Focus Window | `HYPER-ARROWS` |
 
 ### Focus Application Operations
 | Focus Application | Triggered Hotkey |
 |-|-|
 | iTerm | `HYPER-Spacebar` |
 | Window Select | `HYPER-Q` |
-| Spotify | `HYPER-W` |
+| iTunes | `HYPER-W` |
 | Kiwi for Gmail | `HYPER-E` |
-| Microsoft OneNote | `HYPER-A` |
+| Slack | `HYPER-A` |
 | Visual Studio Code | `HYPER-S` |
-| Google Chrome | `HYPER-D` |
+| Microsoft Edge | `HYPER-D` |
 | Finder | `HYPER-F` |
 | Translate | `HYPER-Z` |
 | Preview | `HYPER-X` |
-| Messages | `HYPER-M` |
 | Calendar | `HYPER-C` |
+| Telegram | `HYPER-V` |
+| Messages | `HYPER-B` |
 | Clipboard History | `HYPER-;` |
 
-# System Trackpad Gestures Configuration
-*`System Preferences -> Trackpad` settings*
 
-|Action | Gesture|
-|-|-|
-|Swipe Between Fullscreen Apps | Left/Right Swipe with 4 fingers|
-|Mission Control | 4 finger Swipe Up |
-|App Exposé| 4 Finger Swipe Up |
-|Show Desktop| Spread with Thumb and 3 Fingers |
-|Launchpad| Pinch with Thumb and 3 Fingers |
 
-# Better Touch Tool Configuration
-  *Must manually import [config](./Settings/Default.bttpreset) into BetterTouchTool*
 
-### Window Manipulation
-*\* Requires Slate to work as intended*
 
-| Action | Gesture | Triggered Hotkey* |
+# System Trackpad Gestures and Better Touch Tool Configuration
+
+  *Must manually import [configs](./Settings/btt/) into BetterTouchTool*  
+  *Requires Hammerspoon and Karabiner to work as intended*
+
+
+### System Actions
+*`System Preferences -> Trackpad`*
+|Action | Gesture | Mouse
 |-|-|-|
-|Toggle Fullscreen Mode| 4 Finger Double Tap ||
-|Throw to next screen| 3 Finger Swipe Left |`HYPER-P`|
-|Throw to previous screen| 3 Finger Swipe Right |`HYPER-O`|
-|Maximize window on screen| 3 Finger Double Tap |`HYPER-I`|
-|Window to top half of screen| TipSwipe Left Finger Up (2 Finger Fix) |`HYPER-K`|
-|Window to bottom half of screen| TipSwipe Left Finger Down (2 Finger Fix)  |`HYPER-J`|
-|Window to left half of screen| TipSwipe Left Finger Left (2 Finger Fix) |`HYPER-H`|
-|Window to right half of screen| TipSwipe Left Finger Right (2 Finger Fix) |`HYPER-L`|
+|Swipe Between Pages | Left/Right Swipe with 2 fingers| |
+|Swipe Between Fullscreen Apps | Left/Right Swipe with 4 fingers | Back-ScrollLeft/Right|
+|Mission Control | 4 Finger Swipe Up | Back-ScrollUp |
+|App Exposé| 4 Finger Swipe Down | Back-ScrollDown |
+|Launchpad| Pinch with Thumb and 3 Fingers |
+|Show Desktop| Spread with Thumb and 3 Fingers |
+### Window Manipulation
+| Action | Gesture | Mouse | Triggered Hotkey |
+|-|-|-|-|
+|Throw to next screen| 3 Finger Swipe Left |Forward-Right|`HYPER-P`|
+|Throw to previous screen| 3 Finger Swipe Right | Back-Right |`HYPER-O`|
+|Toggle Fullscreen Mode| TipTap Left (3 Finger Fix) | Back-Middle||
+|Maximize window on screen| TipTap Left (2 Finger Fix) | Forward-Middle |`HYPER-I`|
+|Window to top half of screen| TipSwipe Left Finger Up (2 Finger Fix) | Forward-ScrollUp |`HYPER-K`|
+|Window to bottom half of screen| TipSwipe Left Finger Down (2 Finger Fix) | Forward-ScrollDown |`HYPER-J`|
+|Window to left half of screen| TipSwipe Left Finger Left (2 Finger Fix) | Forward-ScrollLeft |`HYPER-H`|
+|Window to right half of screen| TipSwipe Left Finger Right (2 Finger Fix) | Forward-ScrollRight |`HYPER-L`|
 
 ### Common Operations
-| Action | Gesture | Triggered Hotkey |
-|-|-|-|
-|Undo | 2 Finger Click, Left Harder  |`CMD-Z`|
-|Redo | 2 Finger Click, Right Harder  |`CMD-SHIFT-Z` |
-|Volume Up | 5 Finger Swipe Up, hold | |
-|Volume Down | 5 Finger Swipe Down, hold | |
-|Play/Pause | 5 Finger Tap | |
-|Screenshot Editor | 2 Finger Swipe from Outside Left | |
-|Quit App | 4 Finger Force Click | |
+| Action | Gesture | Mouse | Triggered Hotkey |
+|-|-|-|-|
+|Zoom In| |Right-ScrollUp ||
+|Zoom Out| |Right-ScrollDown ||
+|Copy | | Middle-ScrollLeft | `CMD-C`|
+|Paste | | Middle-ScrollRight | `CMD-V`|
+|Undo | 2 Finger Click, Left Harder | Middle-Back | `CMD-Z`|
+|Redo | 2 Finger Click, Right Harder | Middle-Forward | `CMD-SHIFT-Z` |
+|Volume Up | 5 Finger Swipe Up, hold |Back-Forward-ScrollDown| |
+|Volume Down | 5 Finger Swipe Down, hold |Back-Forward-ScrollUp| |
+|Play/Pause | 5 Finger Tap |Back-Forward-Middle| |
+|Previous | 5 Finger Swipe Right |Back-Forward-ScrollRight| |
+|Next | 5 Finger Swipe Left |Back-Forward-ScrollLeft| |
+|Screenshot Editor | 2 Finger Swipe from Outside Left | Middle-Right | |
+|Quit App | 4 Finger Force Click |Back-Foward-Right-Middle| |
+
+### Misc
+| Action | Mouse |
 
 # Typical Tab Interactions
-*Works in most browsers*
+*Works for most browsers*
 
-| Action | Gesture | Triggered Hotkey |
-|-|-|-|
-| Open Link in New Tab | 3 Finger Tap | `CMD-Click` |
-| New Window| 3 Finger Force Click | `CMD-N` |
-| New Tab | 3 Finger Click | `CMD-T` |
-| Close Tab | 3 Finger Clickswipe Up | `CMD-W` |
-| Reopen Closed Tab | 3 Finger Clickswipe Down | `CMD-SHIFT-T` |
-| Move to Previous Tab | 3 Finger Clickswipe Right | `OPT-CMD-LEFT_ARROW` |
-| Move to Next Tab | 3 Finger Clickswipe Left | `OPT-CMD-RIGHT_ARROW` |
-| Refresh| Spread with Thumb and 2 Finger | `CMD-R` |
+| Action | Gesture | Mouse | Triggered Hotkey |
+|-|-|-|-|
+| Open Link in New Tab | 3 Finger Tap | Right-Middle | `CMD-Click` |
+| New Window| 3 Finger Force Click || `CMD-N` |
+| New Tab | 3 Finger Click | Back-Right-Middle | `CMD-T` |
+| Close Tab | 3 Finger Clickswipe Up | Right-Back | `CMD-W` |
+| Reopen Closed Tab | 3 Finger Clickswipe Down | Right-Forward | `CMD-SHIFT-T` |
+| Move to Previous Tab | 3 Finger Clickswipe Right | Right-ScrollLeft| `OPT-CMD-LEFT_ARROW` |
+| Move to Next Tab | 3 Finger Clickswipe Left | Right-ScrollRight | `OPT-CMD-RIGHT_ARROW` |
+| Refresh| Spread with Thumb and 2 Finger || `CMD-R` |
