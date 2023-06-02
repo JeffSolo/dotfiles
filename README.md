@@ -1,7 +1,7 @@
 # Initial Mac setup
 
 Assuming a fresh Mac install, we can't just use `git clone` without installing Xcode.  
-Manually download, navigate to the repo, and run `bash setup.sh`
+Manually download, navigate to the repo, and execute `setup.sh`
 Mac will nag you a couple times to install Xcode - it's not required (Xcode command line tools will be installed during setup).
 
 
